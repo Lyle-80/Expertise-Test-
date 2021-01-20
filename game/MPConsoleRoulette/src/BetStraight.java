@@ -1,3 +1,5 @@
+// Class for "Straiht" Bets
+
 package src;
 
 
