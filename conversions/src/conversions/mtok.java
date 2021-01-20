@@ -1,4 +1,4 @@
-// "Mile's" to "Kilometer's" Console Converter
+// "Mile's" to "Kilometer's" Console Converter (Scanner Method)
 
 package conversions;
 
