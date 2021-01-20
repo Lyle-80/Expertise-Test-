@@ -1,3 +1,4 @@
 1. Extract 'src' folder 
 2. Import into desired IDE
 3. Run and playsafe ('',*)
+NB: When adding new players to Player.txt file, use the "Name_Surname,0.0,0.0" syntax to generate the round report.
