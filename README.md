@@ -2,14 +2,13 @@
 Java Conversions &amp; Multiplayer Console Roulette
 Java Developer Expertise Test (60 min)
 
-## Part 1
+## Part 1-Conversions
 
 #### Create a public repository for this project.
 #### Create an initial commit with the expertise test outline (this document)  in the readme.md
 #### Create frequent commits of your code. (at least 1 commit every 15 min)
-
-Create a service capable of serving the following endpoints:
-For all of the below endpoints a log entry needs to be created for their execution duration.
+## Create a service capable of serving the following endpoints:
+#### For all of the below endpoints a log entry needs to be created for their execution duration.
 
 /conversions/ktoc
 The ktoc endpoint should produce an output amount in celsius when given an input amount in kelvin.
