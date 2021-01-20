@@ -32,8 +32,8 @@ public class mtok {
 		
 			
 // End of Execution Duration log:
-	    long endTime=System.currentTimeMillis();
-	    System.out.println("Execution Duration: " + (endTime-startTime) + "'milliseconds'");
+	        long endTime=System.currentTimeMillis();
+	        System.out.println("Execution Duration: " + (endTime-startTime) + "'milliseconds'");
 	}
 
 }
