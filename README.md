@@ -1,6 +1,5 @@
 # Expertise-Test-
 Java Conversions &amp; Multiplayer Console Roulette
-Java Developer Expertise Test (60 min)
 
 ## Part 1-Conversions
 
