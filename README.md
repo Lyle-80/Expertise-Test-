@@ -2,7 +2,7 @@
 Java Conversions &amp; Multiplayer Console Roulette
 Java Developer Expertise Test (60 min)
 
-Part 1
+## Part 1
 
 ### Create a public repository for this project.
 ### Create an initial commit with the expertise test outline (this document)  in the readme.md
@@ -24,7 +24,7 @@ The mtok endpoint should produce, when given an input amount in miles, an output
 The ktom endpoint should produce, when given an input amount in kilometers, an output amount in miles.
 
 
-Part 2 – Console Roulette
+## Part 2 – Console Roulette
 
 Roulette is a popular casino game. The aim of the exercise is to create a simple command line multiplayer version of the game.
 On start-up, load a file which contains a list of player's names:
