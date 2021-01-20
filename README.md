@@ -2,11 +2,7 @@
 Java Conversions &amp; Multiplayer Console Roulette
 Java Developer Expertise Test (60 min)
 
-Java Developer Expertise Test (60 min)
-
-
-
-+++Part 1+++
+Part 1
 
 Create a Github account  on github https://github.com/ or use your existing account if you already have one.
 Create a public repository for this project.
@@ -29,16 +25,12 @@ The mtok endpoint should produce, when given an input amount in miles, an output
 The ktom endpoint should produce, when given an input amount in kilometers, an output amount in miles.
 
 
+Part 2 – Console Roulette
 
-
-+++Part 2 – Console Roulette+++
-Console Roulette
-
-Console Roulette
 Roulette is a popular casino game. The aim of the exercise is to create a simple command line multiplayer version of the game.
 On start-up, load a file which contains a list of player's names:
 
-+Input file 1
+### Input file 1
 
 ```bash
 Tiki_Monkey
@@ -49,7 +41,7 @@ Barbara
 Once started, it should read lines from the console, each line will contain the player's name, what they want to bet on (either a number from
 1-36, EVEN or ODD), and how much they want to bet:
 
-+Console input 1
+### Console input 1
 
 ```bash
 Tiki_Monkey 2 1.0
@@ -57,7 +49,7 @@ Tiki_Monkey 2 1.0
 
 Or
 
-++Console input 2
+### Console input 2
 
 ```bash
 Barbara EVEN 3.0
@@ -73,7 +65,7 @@ It must be possible to place bets and choose a random number concurrently.
 The game should print to the console the number and for each bet - the player's name, the bet, whether they won or lost, and how much they
 won:
 
-+Output 1
+### Output 1
 
 ```bash
 Number: 4
@@ -90,7 +82,7 @@ Optional Bonus Question
 We'd like to print out the total amount a player has won and bet. The input file (with players' names) should have optional "total win" and
 "total bet" comma separated values which are the amounts player has won and bet in the past. No value should be treated as zero.
 
-++Input File 2
+### Input File 2
 
 ```bash
 Tiki_Monkey,1.0,2.0
@@ -99,7 +91,7 @@ Barbara,2.0,1.0
 
 After each number is chosen print out the totals in a tabular format (after the previous output is printed):
 
-++Output 2
+### Output 2
 
 ```bash
 Player Total Win Total Bet
