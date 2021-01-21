@@ -37,7 +37,7 @@ public class Dealer extends MPCRoulette{
         }catch (NumberFormatException e){
 
 
-// Straight Bet & String Scan Function
+            // Straight Bet & String Scan Function
             String opt = data[1].toUpperCase();
             switch (opt){
                 case "EVEN":
@@ -52,12 +52,12 @@ public class Dealer extends MPCRoulette{
             e.printStackTrace();
         }
 
-// New Bet (Straight)
+        // New Bet (Straight)
         addBet( username, betAmount, chosenNumber);
 
     }
 
-// Number or Straight Bet Identifier
+    // Number or Straight Bet Identifier
     private static void addBet(String username, double betAmount, byte chosenNumber){
         if((betAmount > 0) && (chosenNumber > 0 && chosenNumber <= MAX_NUMBER_TO_BET_ON )){
 
@@ -85,7 +85,7 @@ public class Dealer extends MPCRoulette{
 
     }
 
-// String Options
+    // String Options
     private static void addBet(String username, double betAmount, String chosenOpt){
 
         int userIndex = userCheck(username,betAmount);
@@ -125,12 +125,12 @@ public class Dealer extends MPCRoulette{
         }
 
 
-// Saves bet for Numbered input
+        // Saves bet for Numbered input
         saveBet(new BetType(username,chosenOpt,betAmount,win,winning));
 
     }
 
-//Scans Player.txt file for listed players
+    //Scans Player.txt file for listed players
     private static int userCheck(String username, double betAmount){
         boolean found = false;
         int i = 0;
@@ -150,7 +150,7 @@ public class Dealer extends MPCRoulette{
         return i;
     }
 
-// Appends bets to round list
+    // Appends bets to round list
     private static void saveBet(Bets newBet){
 
         bets.add(newBet);
@@ -161,12 +161,12 @@ public class Dealer extends MPCRoulette{
 
     }
 
-//Checks if Number EVEN or ODD
+    //Checks if Number EVEN or ODD
     private static boolean isEven(){
         return randomNumber % 2 == 0;
     }
 
-// Message Generator & User Prompt
+    // Message Generator & User Prompt
     private static void takeBetMsgs(String msg){
         System.out.println(msg);
         takeBets();
