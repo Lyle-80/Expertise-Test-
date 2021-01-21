@@ -22,7 +22,7 @@ public class MPCRoulette {
     }
 
 
-// Welcome Screen & Bet Taker
+    // Welcome Screen & Bet Taker
     protected static void takeBets(){
 
         sc = new Scanner(System.in);
