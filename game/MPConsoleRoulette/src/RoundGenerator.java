@@ -4,7 +4,7 @@ import java.util.*;
 
 public class RoundGenerator extends MPCRoulette implements RoundInterface{
 
-// Set Round Duration (milliseconds) 
+    // Set Round Duration (milliseconds) 
     private static final short ROUND_TIME = 25000;
 
 
@@ -17,12 +17,12 @@ public class RoundGenerator extends MPCRoulette implements RoundInterface{
         randomNumber = genRandom();
     }
 
-// Random Number Generator inclusive (0-36) 
+    // Random Number Generator inclusive (0-36) 
     private byte genRandom(){
         return (byte) Math.round(Math.random() * 36);
     }
 
-// Round Initializer & Result Report Compiler
+    // Round Initializer & Result Report Compiler
     @Override
     public void run() {
         Timer timer = new Timer();
@@ -60,7 +60,7 @@ public class RoundGenerator extends MPCRoulette implements RoundInterface{
     }
 
 
-// Clears Bets, Generates Number for new game
+    // Clears Bets, Generates Number for new game
     private void clearer() {
         bets.clear();
         randomNumber = genRandom();
