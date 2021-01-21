@@ -10,28 +10,28 @@ public class ktom {
 		
 // TODO Auto-generated method stub
 		
-// Start of execution duration log
+		// Start of execution duration log
 		long startTime=System.currentTimeMillis();
 		
 			
 		
-// Declare "kms" & "mls"variables
+			// Declare "kms" & "mls"variables
         		double kms, mls;
  
-// Getting user input using Scanner
+			// Getting user input using Scanner
         		System.out.println("Welcome ('',) Please input distance in "
 					+ "Kilometer's bellow and hit ENTER:");
         		@SuppressWarnings("resource")
         		Scanner input = new Scanner(System.in);
         		kms = input.nextDouble();
  
-// Conversion & OutPut
+			// Conversion & OutPut
         		mls = kms / 1.6;
         		System.out.println("Thank,you!!! Distance in Mile's is: " + mls +"mi" );
  
         
         	
-// End of Execution Duration log:
+		// End of Execution Duration log:
         	long endTime=System.currentTimeMillis();
         	System.out.println("Execution Duration: " + (endTime-startTime) + "'milliseconds'");
 	}
